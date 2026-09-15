@@ -11,7 +11,7 @@ open Lax623795.TemporalGraphs
 conclusion: Lax623795.TemporalExploration.reachableVertexSet_ssubset_next
 ---
 -/
-theorem reachableVertexSet_ssubset_next
+lemma reachableVertexSet_ssubset_next
     {V : Type u} (G : TemporalGraph V) (X : Set V)
     (startTime endTime nextTime : G.Timestep)
     (h_connected : G.AlwaysConnected)

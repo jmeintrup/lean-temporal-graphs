@@ -3,7 +3,7 @@ import Lax623795.TemporalGraphs
 /-!
 ---
 title: Growth of Temporal Reachability
-type: theorem
+type: lemma
 ---
 
 Let `X` be a nonempty proper set of vertices in an always-connected temporal
